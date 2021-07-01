@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin-top: 25px;
+  background: #f0f2f5;
+}
+.countdown {
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.countdown div {
+  width: 65px;
+  height: 65px;
+  padding: 18px 25px 8px 25px;
+  margin: 6px;
+  background: #fff;
+  font-weight: bold;
+}
+
+.countdown span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
